@@ -8,12 +8,11 @@
     width:100%;
     grid-template-columns: (repeat(12, 1fr));
     grid-template-rows: 107px 60px auto 60px;
-    grid-template-areas: 
-    "h h h h h h h h h h h h"
-    "m m m m m m m m m m m m"
-    "c c c c c c c c c c c c"
-    "f f f f f f f f f f f f"
-    ;
+    grid-template-areas:
+        "h h h h h h h h h h h h"
+        "m m m m m m m m m m m m"
+        "c c c c c c c c c c c c"
+        "f f f f f f f f f f f f";
 }
 
 
@@ -225,7 +224,7 @@ color: #bb0303;
     min-height: 500px;
     background-image: url(../images/home.jpg) ;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 .col-sm-2{
     text-align: center;
@@ -488,7 +487,7 @@ input[type=text], input[type=password] {
   }
 
   .buttonregister {
-    background-color: #fe017a;
+    background-color: #eb423f;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
