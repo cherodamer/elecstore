@@ -41,19 +41,19 @@
                                       <form action="#">
                                       <div class="error-messages alert alert-danger"></div>
 
-                                      <label>Enter your firstname *</label>
+                                      <label>Firstname *</label>
                                       <input class="field form-control" name="firstName" type="text" />
 
-                                      <label>Enter your lastname *</label>
+                                      <label>Lastname *</label>
                                       <input class="field form-control" name="lastName" type="text" />
 
-                                      <label>Enter your email *</label>
+                                      <label>Email *</label>
                                       <input class="field form-control" name="email" type="text" />
 
-                                      <label>Enter a password *</label>
+                                      <label>Password *</label>
                                       <input class="field form-control" name="password" autocomplete="off" type="password" />
 
-                                      <label>Enter your phone (optional)</label>
+                                      <label>Phone Number (optional)</label>
                                       <input class="field form-control" name="phone" type="text" />
                                       <input type="submit" class="btnRegister" value="REGISTER">
                                     </form>
@@ -97,10 +97,10 @@
 
                                   <div class="container">
                                     <label for="email"><b>Email Adress</b></label>
-                                    <input type="text" placeholder="Enter Email Adress" name="email" required>
+                                    <input type="text" placeholder="Email Adress" name="email" required>
 
                                     <label for="psw"><b>Password</b></label>
-                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <input type="password" placeholder="Password" name="psw" required>
                                       
                                     <button type="submit">Login</button>
                                      <!--                              
@@ -251,7 +251,9 @@
                   <img src="./images/samsung.jpg" ><br><br>
                    Samsung Galaxy A20e<br></a>
                    €146.00
-                  
+                   <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart  ">
+                   <p style="text-align:center; color: rgb(207, 31, 31);font: size 0.5em;">Add to cart</p>
+                   </a>
                 </div>
 
                 <div class="col-sm-3"> 
@@ -259,6 +261,9 @@
                   <img src="./images/iphone.jpg"><br><br>
                   New Apple iPhone 12<br></a>
                   €900.55
+                  <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart  ">
+                    <p style="text-align:center; color: rgb(207, 31, 31);font: size 0.5em;">Add to cart</p>
+                    </a>
 
                
                 </div>
@@ -267,13 +272,19 @@
                   <img src="./images/ipad.jpg"><br><br>
                   Apple Watch Series 6 GPS<br></a>
                    €400.40 
+                   <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart  ">
+                    <p style="text-align:center; color: rgb(207, 31, 31);font: size 0.5em;">Add to cart</p>
+                    </a>
                 
                 </div>
                 <div class="col-sm-3"> 
                   <a href="">
                   <img src="./images/mac2.jpg" > <br><br>
-                  New Apple iMac- 21.5 inch, 8 GB RAM, 256 GB SSD.<br> </a>
+                  New Apple iMac- 21.5 inch..<br> </a>
                   €1,170.66
+                                     <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart  ">
+                   <p style="text-align:center; color: rgb(207, 31, 31);font: size 0.5em;">Add to cart</p>
+                   </a>
                
                 </div>
                 </div>          
@@ -391,6 +402,7 @@
            </div>
       </div>
         <script src="js/store.js"></script>
-        
+        <!-- <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+        <script>paypal.Buttons().render('body');</script> -->
     </body>
 </html>
